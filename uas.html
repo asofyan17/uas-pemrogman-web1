@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard SIM | Sistem Informasi Manajemen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">Dashboard<span> | Universitas Pamulang</span></div>
+            <div style="font-size: 0.85rem; color: var(--text-gray);"> </div>
+        </div>
+    </nav>
+
+    <div id="dashboard-view" class="view active">
+        <header>
+            <div class="container">
+                <h2>Sistem Informasi Manajemen</h2>
+                <p>Media Penyajian Materi Perkuliahan Digital</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <h3 class="section-title">Daftar Materi Perkuliahan</h3>
+            <div class="grid-materi" id="materi-list">
+                </div>
+        </main>
+    </div>
+
+    <div id="content-view" class="view">
+        <div class="container" style="margin-top: 40px;">
+            <button class="btn-back" onclick="showDashboard()">&larr; Kembali ke Dashboard</button>
+            <article class="content-card">
+                <div id="full-content-area">
+                    </div>
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Dibuat untuk UAS - Pemrograman Web 1</p>
+            <p style="opacity: 0.6; font-size: 0.8rem; margin-top: 5px;">&copy; 2025 - Ahmad Sofyan (231011403231)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
